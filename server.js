@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const User = mongoose.model('User', userSchema);
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://dbUser:wY!:35x-GNnirM7@cluster0-vcbxk.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://hartmanx1:mongo123@cluster0-gpmit.mongodb.net/test?retryWrites=true&w=majority', {
     useMongoClient: true
 });
 
